@@ -1,0 +1,132 @@
+@font-face {
+    font-family: Montserrat;
+    src: url('Montserrat-VariableFont_wght.ttf')
+}
+
+.grid-cell {
+    width: 75px;
+    height: 75px;
+    background: #46b4ebff;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+.grid-row {
+    width: 525px;
+}
+
+.page-container {
+    //margin: 25px;
+    width: 100%;
+    height: 600px;
+    outline: dashed 1px black; //debug box
+    display: flex;
+    align-items: center;
+}
+.grid-container {
+    width: 525px;
+    height: 525px;
+    margin: 0 auto;
+   
+    
+}
+
+.hole {
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    background: white;
+    margin: auto;
+}
+/*
+.hole:hover{
+    background: #cc4343 !important;
+}
+*/
+.invis-cell {
+    width: 75px;
+    height: 75px;
+    outline: dashed 1px black;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.top-hole {
+    border-radius: 50%;
+    width: 60px;
+    height:60px;
+    background: white;
+    margin: auto;
+}
+
+.top-hole:hover {
+    background: #cc4343;
+}
+
+.popup {
+    width: 400px;
+    height: 300px;
+    
+    //top: 50%;
+    //left: 50%;
+    //margin: auto auto auto auto;
+    //position: relative;
+
+    top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     position: absolute;
+     //z-index: -1;
+     //border: 1px solid grey;
+     background: #ffffff;
+  border-radius: 3px;
+  background-clip: padding-box;
+  text-align: center;
+  box-shadow: 5px 10px 18px 1px #888888;
+  display:none;
+    
+}
+.popup-lose {
+    width: 400px;
+    height: 300px;
+    
+    //top: 50%;
+    //left: 50%;
+    //margin: auto auto auto auto;
+    //position: relative;
+
+    top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     position: absolute;
+     //z-index: -1;
+     //border: 1px solid grey;
+     background: #ffffff;
+  border-radius: 3px;
+  background-clip: padding-box;
+  text-align: center;
+  box-shadow: 5px 10px 18px 1px #888888;
+  display: none;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: rgb(58, 155, 58); /* Green */
+    border: 0.5px solid rgb(58, 155, 58);
+    color: black;
+    border-radius: 3px;
+    padding: 30px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 100px 0px;
+}
+
+button:hover {
+    border: 2px solid black;
+}
